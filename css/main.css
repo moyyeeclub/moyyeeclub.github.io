@@ -617,7 +617,7 @@ input, select, textarea {
 
 /* Slider */
 	.slider-holder {
-		    width: 800px;
+		    width: 750px;
 		    height: 400px;
 		    margin-left: auto;
 		    margin-right: auto;
@@ -627,7 +627,7 @@ input, select, textarea {
 	}
 
 		.image-holder {
-			width: 800px;
+			width: 750px;
 			height: 400px;
 			clear: both;
 			position: relative;
@@ -650,27 +650,27 @@ input, select, textarea {
 		}
 
 		#slider-image-2:target ~ .image-holder {
-		    left: -200px;
-		}
-
-		#slider-image-3:target ~ .image-holder {
 		    left: -400px;
 		}
 
-		#slider-image-4:target ~ .image-holder {
-		    left: -600px;
-		}
-
-		#slider-image-5:target ~ .image-holder {
+		#slider-image-3:target ~ .image-holder {
 		    left: -800px;
 		}
 
+		#slider-image-4:target ~ .image-holder {
+		    left: -1200px;
+		}
+
+		#slider-image-5:target ~ .image-holder {
+		    left: -1600px;
+		}
+
 		#slider-image-6:target ~ .image-holder {
-		    left: -1000px;
+		    left: -2000px;
 		}
 
 		#slider-image-7:target ~ .image-holder {
-		    left: -1200px;
+		    left: -2400px;
 		}
 
 		.button-holder {
