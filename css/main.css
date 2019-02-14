@@ -623,7 +623,7 @@ input, select, textarea {
 		    margin-right: auto;
 		    margin-top: 0px;
 		    text-align: center;
-		    overflow: hidden;
+		    overflow: auto;
 	}
 
 		.image-holder {
@@ -667,10 +667,6 @@ input, select, textarea {
 
 		#slider-image-6:target ~ .image-holder {
 		    left: -3500px;
-		}
-
-		#slider-image-7:target ~ .image-holder {
-		    left: -4200px;
 		}
 
 		.button-holder {
