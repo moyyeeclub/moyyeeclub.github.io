@@ -617,9 +617,8 @@ input, select, textarea {
 
 /* Slider */
 	.slider-holder {
-		    width: 960px;
-		    height: 320px;
-		    background-color: yellow;
+		    width: 800px;
+		    height: 400px;
 		    margin-left: auto;
 		    margin-right: auto;
 		    margin-top: 0px;
@@ -628,9 +627,8 @@ input, select, textarea {
 	}
 
 		.image-holder {
-			width: 940px;
-			background-color: red;
-			height: 320px;
+			width: 800px;
+			height: 400px;
 			clear: both;
 			position: relative;
 
@@ -652,27 +650,27 @@ input, select, textarea {
 		}
 
 		#slider-image-2:target ~ .image-holder {
-		    left: -800px;
+		    left: -200px;
 		}
 
 		#slider-image-3:target ~ .image-holder {
-		    left: -1600px;
+		    left: -400px;
 		}
 
 		#slider-image-4:target ~ .image-holder {
-		    left: -2400px;
+		    left: -600px;
 		}
 
 		#slider-image-5:target ~ .image-holder {
-		    left: -3200px;
+		    left: -800px;
 		}
 
 		#slider-image-6:target ~ .image-holder {
-		    left: -4000px;
+		    left: -1000px;
 		}
 
 		#slider-image-7:target ~ .image-holder {
-		    left: -4800px;
+		    left: -1200px;
 		}
 
 		.button-holder {
@@ -685,7 +683,6 @@ input, select, textarea {
 		    height: 10px;
 		    width: 10px;
 		    border-radius: 5px;
-		    background-color: brown;
 		}
 
 /* Image */
