@@ -623,11 +623,11 @@ input, select, textarea {
 		    margin-right: auto;
 		    margin-top: 0px;
 		    text-align: center;
-		    overflow: hidden;
+		    overflow: auto;
 	}
 
 		.image-holder {
-			width: 4900px;
+			width: 700px;
 			height: 400px;
 			clear: both;
 			position: relative;
