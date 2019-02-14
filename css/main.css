@@ -617,8 +617,8 @@ input, select, textarea {
 
 /* Slider */
 	.slider-holder {
-		    width: 700px;
-		    height: 400px;
+		    width: 500px;
+		    height: 500px;
 		    margin-left: auto;
 		    margin-right: auto;
 		    margin-top: 0px;
@@ -627,8 +627,8 @@ input, select, textarea {
 	}
 
 		.image-holder {
-			width: 700px;
-			height: 400px;
+			width: 3000px;
+			height: 500px;
 			clear: both;
 			position: relative;
 
@@ -650,23 +650,23 @@ input, select, textarea {
 		}
 
 		#slider-image-2:target ~ .image-holder {
-		    left: -700px;
+		    left: -500px;
 		}
 
 		#slider-image-3:target ~ .image-holder {
-		    left: -1400px;
+		    left: -1000px;
 		}
 
 		#slider-image-4:target ~ .image-holder {
-		    left: -2100px;
+		    left: -1500px;
 		}
 
 		#slider-image-5:target ~ .image-holder {
-		    left: -2800px;
+		    left: -2000px;
 		}
 
 		#slider-image-6:target ~ .image-holder {
-		    left: -3500px;
+		    left: -2500px;
 		}
 
 		.button-holder {
