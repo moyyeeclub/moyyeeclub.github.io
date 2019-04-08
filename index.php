@@ -111,7 +111,7 @@ if($_POST["submit"]) {
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="contact-form.php">
+								<form method="post" action="index.php">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
