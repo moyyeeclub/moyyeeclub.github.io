@@ -1,4 +1,6 @@
 <?php
+function send()
+{
 	$name = $_POST[‘name’];
 	$visitor_email = $_POST[‘email’];
 	$message = $_POST[‘message’];
@@ -20,5 +22,5 @@
 	mail($to,$email_subject,$email_body,$headers);
 
 	header(“Location: index.html”);
-
+}
 ?>
