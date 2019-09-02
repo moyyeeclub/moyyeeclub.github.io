@@ -5,7 +5,7 @@ function send()
 	$visitor_email = $_POST[‘email’];
 	$message = $_POST[‘message’];
 
-	$email_from = 'columbia@moyyee.club';
+	$email_from = 'mykfccolumbia@gmail.com';
 
 	$email_subject = “MYKFC Inquiry”;
 
@@ -13,7 +13,7 @@ function send()
 				“Email: $visitor_email.\n”.
 					“Message: $message.\n”;
 	
-	$to = “columbia@moyyee.club”;
+	$to = “mykfccolumbia@gmail.com”;
 
 	$headers = "From: $email_from \r\n";
 
